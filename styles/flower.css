@@ -1,0 +1,132 @@
+ .banner {
+     display: flex;
+     background-color: rgba(229, 84, 115, 0.10);
+     align-items: center;
+ }
+
+ .banner-description {
+     margin-left: 240px;
+ }
+
+ .banner-title {
+     color: #272727;
+     font-family: Lato;
+     font-size: 80px;
+     font-style: normal;
+     font-weight: 800;
+     line-height: normal;
+ }
+
+ .shopnow-btn {
+     border-radius: 8px;
+     background: #E55473;
+     color: rgba(255, 255, 255, 1);
+     padding: 20px 43px;
+     color: #FFF;
+     font-family: Lato;
+     font-size: 20px;
+     font-style: normal;
+     font-weight: 700;
+     line-height: normal;
+     border: none;
+
+ }
+
+ .top-flower {
+     width: 635px;
+     height: 800px;
+     margin: 50px 240px 0px 97px;
+ }
+
+ /* middle part  */
+ .middle-part {
+     display: flex;
+     border-radius: 8px;
+     background: rgba(229, 84, 115, 0.05);
+     margin-top: 128px;
+     align-items: center;
+ }
+
+ /* .middle-flower {
+     width: 318px;
+     height: 420px;
+     flex-shrink: 0;
+     margin: 100px 429px 100px 186px;
+ } */
+
+ .middle-part-title {
+     color: #272727;
+     font-family: Lato;
+     font-size: 40px;
+     font-style: normal;
+     font-weight: 800;
+     line-height: normal;
+     margin: 230px 0px 24px 423px;
+ }
+
+ .middle-part-descrition {
+     display: flex;
+     width: 594px;
+     flex-direction: column;
+     margin-left: 395px;
+ }
+
+ #sign-up {
+     margin: 52px 231px 182px 644px;
+ }
+
+ /* middle part end  */
+ /* insta part start  */
+ .instagram {
+     text-align: center;
+ }
+
+ .insta-images {
+     display: flex;
+     gap: 24px;
+     /* margin: 48px 240px 128px; */
+     margin-bottom: 128px;
+ }
+
+ /* insta part end  */
+ /* deal part start  */
+ .deal-section {
+     padding-left: 40px;
+     padding-right: 40px;
+ }
+
+ .deal {
+     width: 1440px;
+     height: 449px;
+     background-image: url("../Rectangle\ 9.png");
+     text-align: center;
+
+
+ }
+
+ .deal-text {
+     padding-top: 122px;
+ }
+
+ .input-field {
+     width: 700px;
+     height: 64px;
+     border-radius: 8px;
+     background: #FFF;
+     border: none;
+     padding-left: 20px;
+ }
+
+ /* footer section  */
+ footer {
+     background-color: #272727;
+     color: whitesmoke;
+     text-align: center;
+
+     padding: 128px;
+     margin-top: 128px;
+ }
+
+ span {
+     color: rgba(229, 84, 115, 1);
+ }
