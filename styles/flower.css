@@ -1,3 +1,7 @@
+ body {
+     font-family: 'Lato', sans-serif;
+ }
+
  .banner {
      display: flex;
      background-color: rgba(229, 84, 115, 0.10);
@@ -5,7 +9,7 @@
  }
 
  .banner-description {
-     margin-left: 240px;
+     margin-left: 200px;
  }
 
  .banner-title {
@@ -13,7 +17,7 @@
      font-family: Lato;
      font-size: 80px;
      font-style: normal;
-     font-weight: 800;
+     font-weight: 708px;
      line-height: normal;
  }
 
@@ -38,6 +42,13 @@
      margin: 50px 240px 0px 97px;
  }
 
+ /* featured section start  */
+ .feature-text {
+     text-align: center;
+ }
+
+ /* featured section end  */
+
  /* middle part  */
  .middle-part {
      display: flex;
@@ -47,12 +58,13 @@
      align-items: center;
  }
 
- /* .middle-flower {
+ .middle-flower {
      width: 318px;
      height: 420px;
      flex-shrink: 0;
-     margin: 100px 429px 100px 186px;
- } */
+     justify-content: space-between;
+
+ }
 
  .middle-part-title {
      color: #272727;
@@ -81,22 +93,40 @@
      text-align: center;
  }
 
+ .insta-title {
+     color: #272727;
+     text-align: center;
+     font-family: Lato;
+     font-size: 40px;
+     font-style: normal;
+     font-weight: 800;
+     line-height: normal;
+ }
+
  .insta-images {
      display: flex;
      gap: 24px;
      /* margin: 48px 240px 128px; */
      margin-bottom: 128px;
+     justify-content: center;
+ }
+
+ .middle-img {
+     width: 300px;
+     height: 350px;
  }
 
  /* insta part end  */
  /* deal part start  */
  .deal-section {
-     padding-left: 40px;
-     padding-right: 40px;
+
+     align-items: center;
+     justify-content: center;
+     padding: 150px;
  }
 
  .deal {
-     width: 1440px;
+     width: 1240px;
      height: 449px;
      background-image: url("../Rectangle\ 9.png");
      text-align: center;
@@ -124,7 +154,7 @@
      text-align: center;
 
      padding: 128px;
-     margin-top: 128px;
+
  }
 
  span {
