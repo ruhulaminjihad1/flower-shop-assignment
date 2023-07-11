@@ -6,6 +6,7 @@
      display: flex;
      background-color: rgba(229, 84, 115, 0.10);
      align-items: center;
+     position: relative;
  }
 
  .banner-description {
@@ -15,9 +16,10 @@
  .banner-title {
      color: #272727;
      font-family: Lato;
-     font-size: 80px;
+     font-size: 60px;
      font-style: normal;
-     font-weight: 708px;
+     /* font-weight: 700px; */
+     max-width: 808px;
      line-height: normal;
  }
 
@@ -30,7 +32,7 @@
      font-family: Lato;
      font-size: 20px;
      font-style: normal;
-     font-weight: 700;
+     font-weight: 800px;
      line-height: normal;
      border: none;
 
@@ -38,16 +40,89 @@
 
  .top-flower {
      width: 635px;
-     height: 800px;
-     margin: 50px 240px 0px 97px;
+     height: 750px;
+     padding: 50px 140px 0px;
  }
 
  /* featured section start  */
+ .feature-part {
+     padding: 48px 300px;
+     margin: 0px 240px;
+ }
+
  .feature-text {
      text-align: center;
  }
 
+ .feature-flowers {
+     padding: 48px;
+ }
+
+ .feature-images {
+     display: flex;
+     justify-content: space-evenly;
+     gap: 20px;
+
+
+ }
+
+ .feature-img-1 {
+     border-radius: 300px 300px 0px 0px;
+     background: rgba(167, 33, 98, 0.15);
+     padding: 110px 70px 0px;
+     height: 480px;
+ }
+
+ .feature-img-2 {
+     border-radius: 300px 300px 0px 0px;
+     background: rgba(5, 151, 160, 0.15);
+     padding: 110px 70px 0px;
+     height: 480px;
+ }
+
+ .feature-img-3 {
+     border-radius: 300px 300px 0px 0px;
+     background: rgba(71, 125, 17, 0.15);
+     padding: 110px 70px 0px;
+     height: 480px;
+ }
+
+ .img-name {
+     display: flex;
+     justify-content: space-evenly;
+
+ }
+
+ .img-1 {
+     margin-bottom: 0%;
+ }
+
+ .div-1 {
+     text-align: center;
+     width: 464px;
+     height: 538px;
+     flex-shrink: 0;
+ }
+
  /* featured section end  */
+ /* serveices section start  */
+ .service {
+     border-radius: 8px;
+     background: rgba(39, 39, 39, 0.05);
+     margin: 128px 240px;
+ }
+
+ .services {
+     display: flex;
+     justify-content: space-around;
+     padding: 86px;
+ }
+
+ .delivery {
+     text-align: center;
+ }
+
+ /* service end  */
 
  /* middle part  */
  .middle-part {
@@ -56,14 +131,22 @@
      background: rgba(229, 84, 115, 0.05);
      margin-top: 128px;
      align-items: center;
+     padding: 100px;
+     justify-content: space-evenly;
  }
 
  .middle-flower {
      width: 318px;
      height: 420px;
      flex-shrink: 0;
-     justify-content: space-between;
+     justify-content: space-around;
 
+
+ }
+
+ .middle-text {
+     text-align: center;
+     justify-content: center;
  }
 
  .middle-part-title {
@@ -73,19 +156,12 @@
      font-style: normal;
      font-weight: 800;
      line-height: normal;
-     margin: 230px 0px 24px 423px;
  }
 
  .middle-part-descrition {
-     display: flex;
      width: 594px;
-     flex-direction: column;
-     margin-left: 395px;
  }
 
- #sign-up {
-     margin: 52px 231px 182px 644px;
- }
 
  /* middle part end  */
  /* insta part start  */
