@@ -55,7 +55,10 @@
  }
 
  .feature-flowers {
-     padding: 48px;
+     padding-top: 30px;
+     padding-left: 200px;
+     padding-right: 200px;
+
  }
 
  .feature-images {
@@ -69,22 +72,25 @@
  .feature-img-1 {
      border-radius: 300px 300px 0px 0px;
      background: rgba(167, 33, 98, 0.15);
-     padding: 110px 70px 0px;
-     height: 480px;
+     padding: 100px 50px 0px;
+     height: 360px;
+     width: 250px;
  }
 
  .feature-img-2 {
      border-radius: 300px 300px 0px 0px;
      background: rgba(5, 151, 160, 0.15);
      padding: 110px 70px 0px;
-     height: 480px;
+     height: 350px;
+     width: 230px;
  }
 
  .feature-img-3 {
      border-radius: 300px 300px 0px 0px;
      background: rgba(71, 125, 17, 0.15);
      padding: 110px 70px 0px;
-     height: 480px;
+     height: 350px;
+     width: 260px;
  }
 
  .img-name {
@@ -95,13 +101,16 @@
 
  .img-1 {
      margin-bottom: 0%;
+     height: 350px;
+     width: 240px;
  }
 
  .div-1 {
      text-align: center;
-     width: 464px;
-     height: 538px;
-     flex-shrink: 0;
+     width: 380px;
+     height: 400px;
+     padding-bottom: 100px;
+
  }
 
  /* featured section end  */
@@ -183,7 +192,7 @@
      display: flex;
      gap: 24px;
      /* margin: 48px 240px 128px; */
-     margin-bottom: 128px;
+
      justify-content: center;
  }
 
