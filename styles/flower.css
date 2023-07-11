@@ -90,7 +90,7 @@
      background: rgba(71, 125, 17, 0.15);
      padding: 110px 70px 0px;
      height: 350px;
-     width: 260px;
+     width: 230px;
  }
 
  .img-name {
@@ -224,12 +224,39 @@
  }
 
  .input-field {
-     width: 700px;
+     width: 500px;
      height: 64px;
      border-radius: 8px;
      background: #FFF;
      border: none;
      padding-left: 20px;
+     margin-right: 10px;
+     margin-top: 40px;
+ }
+
+ /* extra section  */
+ .about {
+     padding: 100px;
+     background-color: rgb(231, 185, 173);
+     border-radius: 50px;
+     margin: 0px 100px 50px
+ }
+
+ .about-shop {
+
+     text-align: center;
+ }
+
+ .about-info {
+     display: flex;
+     text-align: center;
+     justify-content: space-around;
+     margin-top: 50px
+ }
+
+ .shop-title {
+     font-size: 50px;
+     font-weight: 900;
  }
 
  /* footer section  */
@@ -239,6 +266,8 @@
      text-align: center;
 
      padding: 128px;
+
+
 
  }
 
